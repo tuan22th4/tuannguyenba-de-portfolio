@@ -1,3 +1,5 @@
+import { links } from './links';
+
 export const siteConfig = {
 	name: 'Engineering Portfolio',
 	description:
@@ -40,16 +42,7 @@ export const siteConfig = {
 			href: '/contact',
 		},
 	],
-	links: {
-		github: 'https://github.com/yourusername',
-		linkedin: 'https://linkedin.com/in/yourusername',
-		twitter: 'https://twitter.com/yourusername',
-		facebook: 'https://facebook.com/yourusername',
-		instagram: 'https://instagram.com/yourusername',
-		whatsapp: 'https://wa.me/yourphonenumber',
-		email: 'mailto:tuan22th4@gmail.com',
-		phone: 'tel:0969976907',
-	},
+	links: links.social,
 };
 
 export type Experience = {
@@ -89,22 +82,22 @@ export type Project = {
 
 export const projects: Project[] = [
 	{
-		title: 'Smart Home Automation System',
+		title: 'IoT-Based ECG Monitoring System using AD8232 and ESP32',
 		description:
-			'Designed and implemented a smart home automation system using IoT technologies to control lighting, temperature, and security features.',
-		image: 'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg',
-		tags: ['IoT', 'Arduino', 'C++', 'Mobile App'],
-		link: '#',
-		repo: '#',
+			'Developed a real-time heart monitoring system that captures ECG signals using the AD8232 sensor and transmits data via ESP32 for remote clinical analysis.',
+		image: '/projects/IOT_ECG.png',
+		tags: ['IoT', 'ESP32', 'AD8232', 'Healthcare', 'C++'],
+		link: links.projects.ecgMonitoring.demo,
+		repo: links.projects.ecgMonitoring.repo,
 	},
 	{
-		title: 'Structural Analysis Software',
+		title: 'LSTM Based Uplink Signal Decoding for NOMA OFDM Systems',
 		description:
-			'Developed software for structural analysis of beams and trusses using numerical methods and visualization techniques.',
-		image: 'https://images.pexels.com/photos/1036657/pexels-photo-1036657.jpeg',
-		tags: ['MATLAB', 'Python', 'FEA', 'Structural Engineering'],
-		link: '#',
-		repo: '#',
+			'Implemented a Deep Learning-based decoding scheme using Long Short-Term Memory (LSTM) networks to enhance signal detection in Non-Orthogonal Multiple Access (NOMA) combined with OFDM.',
+		image: '/projects/LSTM.png',
+		tags: ['Deep Learning', 'LSTM', 'NOMA', 'OFDM', 'Wireless Communications'],
+		link: links.projects.nomaOfdmDecoding.demo,
+		repo: links.projects.nomaOfdmDecoding.repo,
 	},
 	{
 		title: 'Renewable Energy Monitoring',
@@ -112,8 +105,8 @@ export const projects: Project[] = [
 			'Created a system to monitor and analyze performance of solar panels and wind turbines for optimal energy production.',
 		image: 'https://images.pexels.com/photos/356036/pexels-photo-356036.jpeg',
 		tags: ['Data Analysis', 'IoT', 'Renewable Energy', 'Visualization'],
-		link: '#',
-		repo: '#',
+		link: links.projects.smartGrid.demo,
+		repo: links.projects.smartGrid.repo,
 	},
 ];
 
@@ -153,16 +146,18 @@ export type Certificate = {
 	id?: string;
 	url?: string;
 	pdf?: string;
+	image?: string;
 };
 
 export const certificates: Certificate[] = [
 	{
-		title: 'Engineering Professional Certification',
-		issuer: 'Professional Engineering Association',
-		date: 'Nov 2023',
-		id: 'CERT-12345',
-		url: '#',
-		pdf: '/certificates/sample.pdf',
+		title: 'Gemini Certified Educator',
+		issuer: 'Google for Education',
+		date: 'Dec 26, 2025',
+		id: 'Nguyen Ba Tuan',
+		url: links.certificates.gemini,
+		pdf: '/certificates/certified_1.jpg',
+		image: '/certificates/certified_1.jpg',
 	},
 	{
 		title: 'CAD Design Specialist',

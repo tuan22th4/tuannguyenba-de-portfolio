@@ -103,7 +103,7 @@ Electronics & Telecommunications student at **University of Science - VNUHCM** (
 
 ## 🛠️ **Featured Projects**
 - **Smart Home Automation System**: IoT-based control for lighting, temperature, and security.
-- **Structural Analysis Software**: Numerical methods for beam/truss visualization.
+- **LSTM Based Uplink Signal Decoding for NOMA OFDM Systems**: Deep Learning-based decoding using LSTM for NOMA-OFDM systems.
 - **Renewable Energy Monitoring**: Solar/Wind performance analysis system.
 
 ---
