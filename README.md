@@ -1,22 +1,20 @@
 <div align="center">
 
-# 🚀 Engineering Student Portfolio
+# 🚀 Tuan Nguyen Ba - Engineering Portfolio
 
-### *Next-Generation Portfolio Template for Tomorrow's Engineers*
+### *Electronics & Telecommunications Engineering Student | Embedded Systems & IoT Enthusiast*
 
-[![GitHub stars](https://img.shields.io/github/stars/niladri-1/Engineering_Student_Portfolio?style=for-the-badge&logo=github&color=yellow)](https://github.com/niladri-1/Engineering_Student_Portfolio/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/niladri-1/Engineering_Student_Portfolio?style=for-the-badge&logo=github&color=blue)](https://github.com/niladri-1/Engineering_Student_Portfolio/network)
-[![GitHub issues](https://img.shields.io/github/issues/niladri-1/Engineering_Student_Portfolio?style=for-the-badge&logo=github&color=red)](https://github.com/niladri-1/Engineering_Student_Portfolio/issues)
-[![License](https://img.shields.io/github/license/niladri-1/Engineering_Student_Portfolio?style=for-the-badge&logo=mit&color=green)](LICENSE)
-
-<br>
-
-*A sleek, responsive, and futuristic portfolio template crafted for engineering students to showcase their innovation, technical prowess, and groundbreaking projects. Built with cutting-edge web technologies for the digital age.*
+[![GitHub stars](https://img.shields.io/github/stars/tuan22th4/tuannguyenba-de-portfolio?style=for-the-badge&logo=github&color=yellow)](https://github.com/tuan22th4/tuannguyenba-de-portfolio/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/tuan22th4/tuannguyenba-de-portfolio?style=for-the-badge&logo=github&color=blue)](https://github.com/tuan22th4/tuannguyenba-de-portfolio/network)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge&logo=mit)](LICENSE)
 
 <br>
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Click_Here-ff69b4?style=for-the-badge)](https://your-portfolio-demo.vercel.app)
-[![Documentation](https://img.shields.io/badge/📚_Documentation-Read_Now-blue?style=for-the-badge)](https://github.com/niladri-1/Engineering_Student_Portfolio/wiki)
+*A high-performance, modern, and futuristic portfolio showcasing my journey, technical expertise, and innovations in electronics and telecommunications engineering. Built with the latest web technologies to bridge the gap between hardware and software.*
+
+<br>
+
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Vercel_App-ff69b4?style=for-the-badge)](https://tuannguyenba-de-portfolio.vercel.app)
 
 </div>
 
@@ -29,13 +27,13 @@
 | 🎯 **Feature** | 🔧 **Technology** | 📊 **Status** |
 |:---|:---|:---:|
 | **Responsive Design** | CSS Grid + Flexbox | ✅ Active |
-| **Modern Architecture** | Next.js 14 + App Router | ✅ Active |
+| **Modern Architecture** | Next.js 15 + App Router | ✅ Active |
 | **Type Safety** | TypeScript 5.0+ | ✅ Active |
 | **Styling Framework** | Tailwind CSS 3.0+ | ✅ Active |
-| **Component Library** | Custom React Components | ✅ Active |
-| **Performance Optimization** | Next.js Image + SSG | ✅ Active |
-| **Contact Integration** | Form Handling + API Routes | ✅ Active |
-| **SEO Optimized** | Meta Tags + Structured Data | ✅ Active |
+| **3D Animations** | Vanta.js + Three.js | ✅ Active |
+| **Component Library** | Radix UI + Shadcn/ui | ✅ Active |
+| **Performance** | Optimized Images + SSG | ✅ Active |
+| **Security** | Patched for CVE-2025-66478 | ✅ Verified |
 
 </div>
 
@@ -45,180 +43,73 @@
 
 <div align="center">
 
-### **Frontend Technologies**
-![Next.js](https://img.shields.io/badge/Next.js-14.0+-black?style=for-the-badge&logo=next.js&logoColor=white)
+### **Hardware & Embedded**
+![C/C++](https://img.shields.io/badge/C%2F%2B%2B-Embedded-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Microcontrollers](https://img.shields.io/badge/Microcontrollers-Arduino%20%2F%20ESP32-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+![Digital Electronics](https://img.shields.io/badge/Electronics-Digital%20Signal%20Processing-FF6F00?style=for-the-badge)
+
+### **Frontend & Tools**
+![Next.js](https://img.shields.io/badge/Next.js-15.1.9-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-18.0+-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.0+-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-### **Development Tools**
-![ESLint](https://img.shields.io/badge/ESLint-8.0+-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
-![PostCSS](https://img.shields.io/badge/PostCSS-8.0+-DD3A0A?style=for-the-badge&logo=postcss&logoColor=white)
-![Git](https://img.shields.io/badge/Git-2.40+-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-Recommended-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Git](https://img.shields.io/badge/Git-Latest-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 </div>
 
 ---
 
-## 📁 **Project Architecture**
-
-
-```
-engineer_portfolio/
-├─ app/
-│  ├─ about/
-│  ├─ blog/
-│  ├─ certificates/
-│  ├─ contact/
-│  ├─ education/
-│  ├─ experience/
-│  ├─ projects/
-│  ├─ skills/
-│  ├─ globals.css
-│  ├─ layout.tsx
-│  └─ page.tsx
-├─ components/
-│  ├─ home/
-│  │  ├─ about-preview.tsx
-│  │  ├─ contact-preview.tsx
-│  │  ├─ hero-section.tsx
-│  │  ├─ projects-preview.tsx
-│  │  └─ skills-preview.tsx
-│  ├─ layout/
-│  │  ├─ footer.tsx
-│  │  └─ navbar.tsx
-│  ├─ ui/               # Reusable UI elements
-│  │  ├─ [~50+ custom components like accordion, button, card, toast, etc.]
-│  └─ theme-provider.tsx
-├─ hooks/
-│  └─ use-toast.ts
-├─ lib/
-│  ├─ constants.ts
-│  ├─ motion.ts
-│  └─ utils.ts
-├─ .eslintrc.json
-├─ .gitignore
-├─ components.json
-├─ next-env.d.ts
-├─ next.config.js
-├─ package-lock.json
-├─ package.json
-├─ postcss.config.js
-├─ tailwind.config.ts
-├─ tsconfig.json
-└─ README.md
+## 📁 **Project Structure**
 
 ```
-
+portfolio/
+├─ app/                 # Next.js App Router (Pages & Layout)
+├─ components/          # React Components (UI, Home, Layout)
+├─ lib/                 # Utilities, Constants, Framer Motion configs
+├─ public/              # Static assets (favicons, cv.pdf)
+├─ hooks/               # Custom React hooks
+├─ types/               # TypeScript type definitions
+├─ tailwind.config.ts   # Design system configuration
+└─ package.json         # Dependencies & project metadata
+```
 
 ---
 
-## 🚀 **Quick Start Guide**
-
-<div align="center">
+## 🚀 **Quick Start**
 
 ### **Prerequisites**
-![Node.js](https://img.shields.io/badge/Node.js-18.0+-339933?style=flat-square&logo=node.js&logoColor=white)
-![npm](https://img.shields.io/badge/npm-9.0+-CB3837?style=flat-square&logo=npm&logoColor=white)
-![Git](https://img.shields.io/badge/Git-Latest-F05032?style=flat-square&logo=git&logoColor=white)
+- Node.js 18.0+
+- npm (latest)
 
-</div>
-
-### **Installation Steps**
+### **Installation**
 
 ```bash
-# 1️⃣ Clone the repository
-git clone https://github.com/niladri-1/Engineering_Student_Portfolio.git
+# 1. Clone the repository
+git clone https://github.com/tuan22th4/tuannguyenba-de-portfolio.git
 
-# 2️⃣ Navigate to project directory
-cd Engineering_Student_Portfolio
-
-# 3️⃣ Install dependencies
+# 2. Install dependencies
 npm install
 
-# 4️⃣ Start development server
+# 3. Start development server
 npm run dev
-
-# 5️⃣ Open in browser
-# Navigate to http://localhost:3000
 ```
 
 ---
 
-## 🎨 **Customization Guide**
-
-<div align="center">
-
-| 🔧 **Component** | 📍 **Location** | 🎯 **Purpose** |
-|:---|:---|:---|
-| **Personal Info** | `app/page.tsx` | Update your details and bio |
-| **Project Gallery** | `components/Projects.tsx` | Showcase your engineering projects |
-| **Styling Theme** | `tailwind.config.ts` | Customize colors and design |
-| **Static Assets** | `public/` | Replace with your images/icons |
-| **Contact Form** | `components/Contact.tsx` | Configure contact information |
-
-</div>
+## 🎯 **About Me**
+Electronics & Telecommunications student at **University of Science - VNUHCM** (2021-2025). Highly specialized in Digital Electronics, Microcontrollers, and Signal Processing. I bridge the gap between hardware systems and modern software interfaces.
 
 ---
 
-## 📊 **Performance Metrics**
-
-<div align="center">
-
-| 📈 **Metric** | 🎯 **Score** | 🏆 **Status** |
-|:---|:---:|:---:|
-| **Lighthouse Performance** | 98/100 | 🟢 Excellent |
-| **Accessibility** | 100/100 | 🟢 Perfect |
-| **Best Practices** | 100/100 | 🟢 Perfect |
-| **SEO** | 100/100 | 🟢 Perfect |
-| **First Contentful Paint** | < 1.2s | 🟢 Fast |
-| **Largest Contentful Paint** | < 2.5s | 🟢 Fast |
-
-</div>
-
----
-
-## 📦 **Available Scripts**
-
-<div align="center">
-
-| 🖥️ **Command** | 🎯 **Description** |
-|:---|:---|
-| `npm run dev` | Start development server |
-| `npm run build` | Build for production |
-| `npm run start` | Start production server |
-| `npm run lint` | Run ESLint checks |
-| `npm run type-check` | Run TypeScript checks |
-
-</div>
-
----
-
-## 🤝 **Contributing**
-
-<div align="center">
-
-We welcome contributions from the engineering community!
-
-[![Contributors](https://img.shields.io/github/contributors/niladri-1/Engineering_Student_Portfolio?style=for-the-badge&logo=github)](https://github.com/niladri-1/Engineering_Student_Portfolio/graphs/contributors)
-[![Pull Requests](https://img.shields.io/github/issues-pr/niladri-1/Engineering_Student_Portfolio?style=for-the-badge&logo=github)](https://github.com/niladri-1/Engineering_Student_Portfolio/pulls)
-
-[📋 Contributing Guidelines](CONTRIBUTING.md) • [🐛 Report Bug](https://github.com/niladri-1/Engineering_Student_Portfolio/issues/new?assignees=&labels=bug&template=bug_report.md) • [💡 Request Feature](https://github.com/niladri-1/Engineering_Student_Portfolio/issues/new?assignees=&labels=enhancement&template=feature_request.md)
-
-</div>
+## 🛠️ **Featured Projects**
+- **Smart Home Automation System**: IoT-based control for lighting, temperature, and security.
+- **Structural Analysis Software**: Numerical methods for beam/truss visualization.
+- **Renewable Energy Monitoring**: Solar/Wind performance analysis system.
 
 ---
 
 ## 📄 **License**
-
-<div align="center">
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-
-</div>
+This project is licensed under the **MIT License**.
 
 ---
 
@@ -226,15 +117,15 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 <div align="center">
 
-### **Niladri Chatterjee**
-*Full Stack Developer & Engineering Student*
+### **Tuan Nguyen Ba**
+*Embedded Systems | IoT | Digital Signal Processing*
 
 <br>
 
-[![Email](https://img.shields.io/badge/📧_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:code.niladri@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/niladri1)
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://niladri1.vercel.app)
-[![GitHub](https://img.shields.io/badge/🐱_GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/niladri-1)
+[![Return to Portfolio](https://img.shields.io/badge/🌐_Portfolio-tuannguyenba.vercel.app-FF5722?style=for-the-badge)](https://tuannguyenba-de-portfolio.vercel.app)
+[![Email](https://img.shields.io/badge/📧_Email-tuan22th4@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tuan22th4@gmail.com)
+[![GitHub](https://img.shields.io/badge/🐱_GitHub-tuan22th4-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tuan22th4)
+[![Phone](https://img.shields.io/badge/📱_Phone-0969976907-4CAF50?style=for-the-badge)](tel:0969976907)
 
 <br>
 
@@ -242,8 +133,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-⭐ **If this project helped you, please consider giving it a star!** ⭐
-
-[![Star this repo](https://img.shields.io/github/stars/niladri-1/Engineering_Student_Portfolio?style=social)](https://github.com/niladri-1/Engineering_Student_Portfolio)
+⭐ **If you like this project, feel free to give it a star!** ⭐
 
 </div>
